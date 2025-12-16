@@ -1,14 +1,21 @@
-# FUTURE_CS_01
+# Web Application Security Testing – Task 1
 
-## Internship: Future Interns – Cyber Security  
-## Task 1: Web Application Security Testing
+## Internship
+Future Interns – Cyber Security Internship
 
-### Objective
-The objective of this task is to perform basic security testing on a sample web application to identify common vulnerabilities such as SQL Injection and Cross-Site Scripting (XSS).
+## Task Objective
+To perform basic web application security testing on a vulnerable application and identify security vulnerabilities using industry-standard tools.
 
-### Tools Used
+## Tools Used
+- OWASP ZAP
+- Damn Vulnerable Web Application (DVWA)
+- TryHackMe AttackBox
+
+## Target Application
 - DVWA (Damn Vulnerable Web Application)
-- Web Browser (Chrome)
+- Tested in a controlled lab environment provided by TryHackMe
 
-### Disclaimer
-This project is created for educational purposes only. All testing was performed on an intentionally vulnerable application.
+## Summary
+An automated security scan was performed using OWASP ZAP. Multiple security issues related to missing security headers, improper security configurations, and lack of protection mechanisms were identified.
+
+Detailed findings are documented in the security report.
